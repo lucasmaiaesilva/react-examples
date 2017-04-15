@@ -1,0 +1,18 @@
+.header-name {
+  background: #dedede;
+  padding: 40px 0
+}
+
+.input-hello {
+  width: 80%;
+  font-size: 17px;
+  padding: 10px 2%
+}
+
+.msg {
+  margin-top: 50px
+}
+
+.msg h2{
+  font-size: 50px
+}

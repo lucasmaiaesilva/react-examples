@@ -1,7 +1,8 @@
 import React, { Component } from 'react'
 import logo from './logo.svg'
 import './App.css'
-import Square from './components/squares-example'
+// import Square from './components/squares-example'
+import HelloExample from './components/hello-example'
 
 class App extends Component {
   render () {
@@ -11,7 +12,7 @@ class App extends Component {
           <img src={logo} className='App-logo' alt='logo' />
           <h2>Welcome to React</h2>
         </div>
-        <Square />
+        <HelloExample />
       </div>
     )
   }
