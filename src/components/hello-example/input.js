@@ -1,4 +1,5 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 
 const InputName = ({handleChange}) => (
   <input
@@ -7,5 +8,9 @@ const InputName = ({handleChange}) => (
     onChange={handleChange}
   />
 )
+
+InputName.propTypes = {
+  handleChange: PropTypes.func
+}
 
 export default InputName
