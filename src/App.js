@@ -3,6 +3,10 @@ import logo from './logo.svg'
 import './App.css'
 // import Square from './components/squares-example'
 import HelloExample from './components/hello-example'
+<<<<<<< HEAD
+=======
+// import MarkdownEditor from './components/markdown-editor'
+>>>>>>> 1a87adea25892354bb5d0ca1fd57ab1e19eea6c4
 
 class App extends Component {
   render () {

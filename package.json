@@ -7,6 +7,10 @@
     "react-dom": "^15.5.4"
   },
   "devDependencies": {
+<<<<<<< HEAD
+=======
+    "prop-types": "^15.5.8",
+>>>>>>> 1a87adea25892354bb5d0ca1fd57ab1e19eea6c4
     "react-scripts": "0.9.5"
   },
   "scripts": {
@@ -15,4 +19,8 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 1a87adea25892354bb5d0ca1fd57ab1e19eea6c4
