@@ -2,16 +2,11 @@ import React, { Component } from 'react'
 import logo from './logo.svg'
 import './App.css'
 // import Square from './components/squares-example'
-<<<<<<< HEAD
 // import HelloExample from './components/hello-example'
-import MarkdownEditor from './components/markdown-editor'
-=======
-import HelloExample from './components/hello-example'
-<<<<<<< HEAD
-=======
 // import MarkdownEditor from './components/markdown-editor'
->>>>>>> 1a87adea25892354bb5d0ca1fd57ab1e19eea6c4
->>>>>>> bc791ad40f9ff0befa2884b2fffce386beee6d0e
+// import HelloExample from './components/hello-example'
+// import MarkdownEditor from './components/markdown-editor'
+import Search from './components/search'
 
 class App extends Component {
   render () {
@@ -21,7 +16,7 @@ class App extends Component {
           <img src={logo} className='App-logo' alt='logo' />
           <h2>Welcome to React</h2>
         </div>
-        <MarkdownEditor />
+        <Search />
       </div>
     )
   }
