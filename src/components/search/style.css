@@ -18,12 +18,13 @@
 }
 
 .search-block form button {
-  width: 7%;
+  width: 8%;
   background: rgb(225, 86, 81);
   cursor: pointer;
 }
 
-.search-block form button:hover {
+.search-block form button:hover,
+.search-block form button:focus{
   background: rgba(225, 86, 81, .7);
 }
 
@@ -36,4 +37,11 @@
 
 #icon-search {
   fill: rgba(255, 255, 255, .7)
+}
+
+@media (max-width: 980px) {
+  .search-block form {
+    width: 96%;
+  }
+
 }
