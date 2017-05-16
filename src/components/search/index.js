@@ -1,5 +1,6 @@
 import React from 'react'
 import SearchIcon from './search-icon'
+import PropTypes from 'prop-types'
 import './style.css'
 
 const Search = ({handleSubmit, handleChange}) => (
@@ -10,5 +11,10 @@ const Search = ({handleSubmit, handleChange}) => (
     </form>
   </div>
 )
+
+Search.propTypes = {
+  handleSubmit: PropTypes.func,
+  handleChange: PropTypes.func
+}
 
 export default Search
