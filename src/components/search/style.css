@@ -4,7 +4,8 @@
   display: flex;
 }
 
-.search-block form input, .search-block form button {
+.search-block form input,
+.search-block form button {
   box-sizing: border-box;
   border: none;
   outline: 0;
@@ -24,7 +25,7 @@
 }
 
 .search-block form button:hover,
-.search-block form button:focus{
+.search-block form button:focus {
   background: rgba(225, 86, 81, .7);
 }
 
