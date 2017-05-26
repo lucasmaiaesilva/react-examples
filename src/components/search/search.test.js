@@ -1,1 +1,1 @@
-// test of the component here here
+// test of the component here
